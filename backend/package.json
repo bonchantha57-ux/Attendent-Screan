@@ -1,0 +1,25 @@
+{
+  "name": "universal-attendance-backend",
+  "version": "1.0.0",
+  "description": "Universal Web-Based Attendance Tracking System Backend API with Firebase Firestore & Realtime Database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["attendance", "qr", "firebase", "pwa", "geofencing"],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
+

@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": "u-fb-admin-02",
+      "userId": "admin@digital.com",
+      "email": "admin@digital.com",
+      "name": "Admin Digital",
+      "passwordHash": "$2a$10$h9jiD2vzZeaJRAHr6br0su1JWGzZ9fiIjH3UOhHv9kgFBk.pLEeKi",
+      "role": "admin",
+      "department": "Management & IT Directorate",
+      "createdAt": "2026-11-06T04:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "u-fb-admin-01",
+      "userId": "admin@attendent.com",
+      "email": "admin@attendent.com",
+      "name": "Admin Attendent (Firebase)",
+      "passwordHash": "$2a$10$h9jiD2vzZeaJRAHr6br0su1JWGzZ9fiIjH3UOhHv9kgFBk.pLEeKi",
+      "role": "admin",
+      "department": "Management & IT Directorate",
+      "firebaseUid": "xrvbCdalEMQAWHEFh6AGUtk",
+      "createdAt": "2026-11-06T04:00:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "u-adm-001",
+      "userId": "ADM-001",
+      "name": "Born Chantha (Admin)",
+      "passwordHash": "$2a$10$h9jiD2vzZeaJRAHr6br0su1JWGzZ9fiIjH3UOhHv9kgFBk.pLEeKi",
+      "role": "admin",
+      "department": "Management & IT Directorate",
+      "createdAt": "2026-11-06T03:09:03.267Z",
+      "status": "active"
+    },
+    {
+      "id": "u-stf-101",
+      "userId": "STF-101",
+      "name": "Meng Sokha (Instructor)",
+      "passwordHash": "$2a$10$h9jiD2vzZeaJRAHr6br0suFx.CV6v5StU7kbCL3184w44wDDOMV/u",
+      "role": "staff",
+      "department": "Computer Science & Software",
+      "createdAt": "2026-11-06T03:09:03.357Z",
+      "status": "active"
+    },
+    {
+      "id": "u-stu-201",
+      "userId": "STU-201",
+      "name": "Vichea Dara (Student)",
+      "passwordHash": "$2a$10$h9jiD2vzZeaJRAHr6br0su4qjmHPqBbcppdBV4zm2Gx8l8NeJtcQK",
+      "role": "student",
+      "department": "Computer Science - Year 3",
+      "createdAt": "2026-11-06T03:09:03.448Z",
+      "status": "active"
+    },
+    {
+      "id": "u-stu-202",
+      "userId": "STU-202",
+      "name": "Chan Bopha (Student)",
+      "passwordHash": "$2a$10$h9jiD2vzZeaJRAHr6br0su4qjmHPqBbcppdBV4zm2Gx8l8NeJtcQK",
+      "role": "student",
+      "department": "Information Technology - Year 2",
+      "createdAt": "2026-11-06T03:09:03.538Z",
+      "status": "active"
+    },
+    {
+      "id": "u-stu-203",
+      "userId": "STU-203",
+      "name": "Rith Pisey (Student)",
+      "passwordHash": "$2a$10$h9jiD2vzZeaJRAHr6br0su4qjmHPqBbcppdBV4zm2Gx8l8NeJtcQK",
+      "role": "student",
+      "department": "Graphic Design - Year 1",
+      "createdAt": "2026-11-06T03:09:03.630Z",
+      "status": "active"
+    },
+    {
+      "id": "u-1793935008930",
+      "userId": "STU-999",
+      "name": "Test Student Fresh",
+      "passwordHash": "$2a$10$NEVDK1QgTTUqqzIBBbwvBefJYlQhpjatMvUL1Bgsp9WAIkjXwPo/y",
+      "department": "Software Engineering - Year 3",
+      "role": "student",
+      "status": "active",
+      "createdAt": "2026-11-06T03:16:48.930Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-seed-01",
+      "userId": "STF-101",
+      "userName": "Meng Sokha (Instructor)",
+      "role": "staff",
+      "department": "Computer Science & Software",
+      "date": "2026-11-06",
+      "checkIn": "07:55 AM",
+      "checkInTime": "2026-11-06T00:09:03.630Z",
+      "checkOut": null,
+      "checkOutTime": null,
+      "totalHours": null,
+      "status": "working",
+      "method": "QR_SCAN",
+      "device": "Browser Mobile Camera",
+      "distanceMeters": 45,
+      "overrideReason": null,
+      "overriddenBy": null
+    },
+    {
+      "id": "att-seed-02",
+      "userId": "STU-201",
+      "userName": "Vichea Dara (Student)",
+      "role": "student",
+      "department": "Computer Science - Year 3",
+      "date": "2026-11-06",
+      "checkIn": "08:10 AM",
+      "checkInTime": "2026-11-06T01:09:03.630Z",
+      "checkOut": "10:16 AM",
+      "checkOutTime": "2026-11-06T03:16:39.760Z",
+      "totalHours": "2 ម៉ោង 8 នាទី (2.1h)",
+      "status": "checked_out",
+      "method": "QR_SCAN",
+      "device": "Chrome Mobile",
+      "distanceMeters": 62,
+      "overrideReason": null,
+      "overriddenBy": null,
+      "updatedAt": "2026-11-06T03:16:39.760Z"
+    },
+    {
+      "userId": "STU-999",
+      "userName": "Test Student Fresh",
+      "role": "student",
+      "department": "Software Engineering - Year 3",
+      "date": "2026-11-06",
+      "checkIn": "10:16 AM",
+      "checkInTime": "2026-11-06T03:16:48.965Z",
+      "checkOut": null,
+      "checkOutTime": null,
+      "totalHours": null,
+      "status": "working",
+      "attendanceType": "late",
+      "method": "QR_SCAN",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.4249",
+      "distanceMeters": 0,
+      "overrideReason": null,
+      "overriddenBy": null,
+      "createdAt": "2026-11-06T03:16:48.965Z",
+      "id": "att-1793935008971"
+    }
+  ],
+  "kioskQr": {
+    "qrData": "{\"type\":\"CAMPUS_ATTENDANCE_DYNAMIC_QR\",\"ts\":1793945237164,\"exp\":1793945257164,\"n\":\"efb1b2399ca1\",\"sig\":\"97b980a8aff92e80\"}",
+    "expiresAt": 1793945257164,
+    "ttlSeconds": 20,
+    "updatedAt": 1793945237177
+  },
+  "settings": {
+    "geofence": {
+      "enabled": true,
+      "geofenceType": "polygon",
+      "lat": 11.5645,
+      "lng": 104.9144,
+      "radiusMeters": 250,
+      "polygonCoords": [
+        {
+          "lat": 11.414043,
+          "lng": 104.763699
+        },
+        {
+          "lat": 11.414146,
+          "lng": 104.763516
+        },
+        {
+          "lat": 11.415439,
+          "lng": 104.764174
+        },
+        {
+          "lat": 11.415313,
+          "lng": 104.76437
+        }
+      ],
+      "locationName": "សាកលវិទ្យាល័យភូមិន្ទ (RUPP)",
+      "updatedAt": "2026-11-06T06:07:09.253Z"
+    }
+  }
+}
